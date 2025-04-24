@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    background: white;
+    width: 900px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+    background-color: #f4f9fd;
+    padding: 20px;
+    width: 30%;
+    border-right: 1px solid #ddd;
+}
+
+.right {
+    padding: 20px;
+    width: 70%;
+}
+
+.profile-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.contact-info p, .about p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.about h3, .skills h3, .section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #0073e6;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    margin-bottom: 20px; /* More space between skills */
+}
+
+.skill-name {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.skill-level {
+    width: 100%;
+    background-color: #e6f3ff;
+    border-radius: 5px;
+    position: relative;
+    height: 10px;
+    overflow: hidden;
+}
+
+.skill-level div {
+    height: 100%;
+    background-color: #0073e6;
+    border-radius: 5px;
+}
+
+.skill-java div {
+    width: 90%;
+}
+
+.skill-polite div {
+    width: 80%;
+}
+
+.skill-outgoing div {
+    width: 75%;
+}
+
+.skill-good-manners div {
+    width: 85%;
+}
+
+.skill-pursuer-rabbits div {
+    width: 95%;
+}
+
+.skill-text-big p {
+    font-size: 16px;
+}
+
+.skill-text-small p {
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.section p, .section ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.left h1 {
+    color: #0073e6;
+}
+
+.about h1 {
+    color: grey;
+}
+
+.skills h1 {
+    color: grey;
+}
+
+.contact-info i {
+    background-color: #0073e6;
+    color: white;
+    border-radius: 50%;
+    padding: 9px;
+    width: 30px;
+    height: 30px;
+}
+
+.about p {
+    color: grey;
+}
+
+.right h3 {
+    display: inline-block;
+    color: white;
+    padding: 2px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+h3.education {
+    background-color: #0073e6; 
+}
+
+h3.publications {
+    background-color: grey; 
+}
+
+h3.awards {
+    background-color: #0073e6; 
+}
+
+h3.experience {
+    background-color: grey; 
+}
+
+h3.other-info {
+    background-color: #0073e6; 
+}
+
+h3.interests {
+    background-color: grey;
+}
